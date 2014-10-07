@@ -15,4 +15,4 @@ The amount of work is done in every request is:
 
 [Benchmark results](https://docs.google.com/spreadsheets/d/1Wb8Dh4C5kfTlC2dWlSYHYZSX7Mm7o_gd34DFRZTze3A/edit?usp=sharing)
 
-![https://docs.google.com/spreadsheets/d/1Wb8Dh4C5kfTlC2dWlSYHYZSX7Mm7o_gd34DFRZTze3A/pubchart?oid=2059297480&format=image]
+![Benchmark results](https://docs.google.com/spreadsheets/d/1Wb8Dh4C5kfTlC2dWlSYHYZSX7Mm7o_gd34DFRZTze3A/pubchart?oid=2059297480&format=image)
