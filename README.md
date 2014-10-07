@@ -14,3 +14,5 @@ The amount of work is done in every request is:
 2. Create an instance of Request class using the autoloader
 
 [Benchmark results](https://docs.google.com/spreadsheets/d/1Wb8Dh4C5kfTlC2dWlSYHYZSX7Mm7o_gd34DFRZTze3A/edit?usp=sharing)
+
+![https://docs.google.com/spreadsheets/d/1Wb8Dh4C5kfTlC2dWlSYHYZSX7Mm7o_gd34DFRZTze3A/pubchart?oid=2059297480&format=image]
