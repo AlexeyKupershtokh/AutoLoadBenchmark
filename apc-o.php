@@ -1,9 +1,9 @@
 <?php
 
-$loader = require_once __DIR__.'/vendor/autoload-o.php';
+$cloader = require_once __DIR__.'/vendor/autoload-o.php';
 
-$apcLoader = new \Symfony\Component\ClassLoader\ApcClassLoader('apc', $loader);
-$loader->unregister();
-$apcLoader->register(true);
+$loader = new \Symfony\Component\ClassLoader\ApcClassLoader('apc', $cloader);
+$cloader->unregister();
+$loader->register(true);
 
 require_once('index.php');
