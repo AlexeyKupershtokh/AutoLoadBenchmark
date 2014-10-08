@@ -10,8 +10,9 @@ A simple benchmark to compare autoloaders:
 
 The amount of work is done in every request is:
 
- 1. Initialize a class loader (with symfony/symfony package is a requirement in composer.json)
- 2. Create an instance of Request class using the autoloader
+ 1. Initialize a class loader (with symfony/symfony package is a requirement in composer.json).
+ 2. Create an instance of HeaderBag class using the autoloader.
+ 3. Optionally resolve 20 or 100 classes.
 
 [Benchmark results](https://docs.google.com/spreadsheets/d/1Wb8Dh4C5kfTlC2dWlSYHYZSX7Mm7o_gd34DFRZTze3A/edit?usp=sharing)
 
