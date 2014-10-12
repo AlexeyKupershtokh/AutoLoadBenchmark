@@ -4,20 +4,20 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cb4a206d9d654477d6a39fa6907e461a",
+    "hash": "49530502ed4c5a5550a3eb6ec1a8ad42",
     "packages": [
         {
             "name": "alexey-kupershtokh/lazy-apc-class-loader",
-            "version": "1.0.0",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/AlexeyKupershtokh/LazyApcClassLoader.git",
-                "reference": "e0ae7891d308056eee35972b8816bc535c3a0d15"
+                "reference": "682311c252ed22b0554fb1197486ae556650312d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/AlexeyKupershtokh/LazyApcClassLoader/zipball/e0ae7891d308056eee35972b8816bc535c3a0d15",
-                "reference": "e0ae7891d308056eee35972b8816bc535c3a0d15",
+                "url": "https://api.github.com/repos/AlexeyKupershtokh/LazyApcClassLoader/zipball/682311c252ed22b0554fb1197486ae556650312d",
+                "reference": "682311c252ed22b0554fb1197486ae556650312d",
                 "shasum": ""
             },
             "type": "library",
@@ -36,7 +36,7 @@
                     "email": "alexey.kupershtokh@gmail.com"
                 }
             ],
-            "time": "2014-10-06 14:32:33"
+            "time": "2014-10-12 02:28:53"
         },
         {
             "name": "doctrine/annotations",
@@ -640,16 +640,16 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.16.0",
+            "version": "v1.16.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "8ce37115802e257a984a82d38254884085060024"
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/8ce37115802e257a984a82d38254884085060024",
-                "reference": "8ce37115802e257a984a82d38254884085060024",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/7c4c01dcf578523cfcddf383641a4f12790270ec",
+                "reference": "7c4c01dcf578523cfcddf383641a4f12790270ec",
                 "shasum": ""
             },
             "require": {
@@ -693,7 +693,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2014-07-05 12:19:05"
+            "time": "2014-10-10 14:09:53"
         }
     ],
     "packages-dev": [
@@ -703,9 +703,9 @@
 
     ],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": {
+        "alexey-kupershtokh/lazy-apc-class-loader": 20
+    },
     "prefer-stable": false,
     "platform": [
 

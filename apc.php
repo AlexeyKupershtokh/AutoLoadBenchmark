@@ -1,6 +1,6 @@
 <?php
 
-$cloader = require_once __DIR__.'/vendor/autoload.php';
+$cloader = require_once __DIR__.'/vendor/autoload-composer.php';
 
 $loader = new \Symfony\Component\ClassLoader\ApcClassLoader('apc', $cloader);
 $cloader->unregister();

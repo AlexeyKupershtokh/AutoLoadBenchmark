@@ -1,6 +1,11 @@
 {
     "require": {
-        "alexey-kupershtokh/lazy-apc-class-loader": "~1.0",
+        "alexey-kupershtokh/lazy-apc-class-loader": "dev-master",
         "symfony/symfony": "~2.5"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "AlexeyKupershtokh\\LazyApcClassLoader\\AutoloadGeneratorHook::post"
+        ]
     }
 }

@@ -8,19 +8,19 @@ namespace AlexeyKupershtokh\LazyApcClassLoader;
 $includeFiles = require __DIR__ . '/composer/autoload_files.php';
 foreach ($includeFiles as $file)
 {
-    composerRequireLazy69d1708256ba7e45d0b84437002f687d($file);
+    composerRequireLazy1dbea1f3ec6ee8f83629c4f68a7321ca($file);
 }
 
-function composerRequireLazy69d1708256ba7e45d0b84437002f687d($file)
+function composerRequireLazy1dbea1f3ec6ee8f83629c4f68a7321ca($file)
 {
     require $file;
 }
 
 // create LazyApcClassLoader for classes autoloading
 $loader = new LazyApcClassLoader(
-    '69d1708256ba7e45d0b84437002f687d',
+    '1dbea1f3ec6ee8f83629c4f68a7321ca',
     function () {
-        return require_once __DIR__ . '/autoload-composer-o.php';
+        return require_once __DIR__ . '/autoload-composer.php';
     }
 );
 $loader->register();
